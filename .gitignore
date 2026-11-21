@@ -1,0 +1,32 @@
+# Python environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Original road damage dataset
+data/road_damage/data/
+
+# Prepared dataset images and labels
+data/road_damage/dataset/images/
+data/road_damage/dataset/labels/
+
+# Training outputs
+runs/
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store

@@ -1,0 +1,12 @@
+
+path: /adas-road-perception/data/road_damage/dataset
+
+train: images/train
+val: images/val
+
+nc: 3
+
+names:
+  0: pothole
+  1: crack
+  2: manhole
