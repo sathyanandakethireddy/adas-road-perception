@@ -9,7 +9,7 @@ from src.pothole_detection import RoadSurfacePerception
 def main():
 
     # Video input path
-    video_path = r"/home/sathya/projects/adas-road-perception/data/driving_video.mp4"
+    video_path = r"/adas-road-perception/data/driving_video.mp4"
 
     # Open video
     cap = cv2.VideoCapture(video_path)
